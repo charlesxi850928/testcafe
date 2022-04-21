@@ -1,0 +1,16 @@
+{
+  "browsers": ["chrome"],
+  "src": ["./test/e2e"],
+  "color": true,
+  "hostname": "localhost",
+  "selectorTimeout": 20000,
+  "assertionTimeout": 5000,
+  "pageLoadTimeout": 20000,
+  "speed": 0.5,
+  "port1": 12345,
+  "port2": 54321,
+  "skipJsErrors": true,
+  "reporter": {
+    "name": "cucumber-json"
+  }
+}

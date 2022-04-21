@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "cross-env gherkin-testcafe",
+    "testbytag": "cross-env gherkin-testcafe --tags @tag1",
+    "report": "node src/report-generator.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@cucumber/cucumber": "^7.3.2",
+    "cross-env": "^7.0.3",
+    "gherkin-testcafe": "^5.1.0",
+    "multiple-cucumber-html-reporter": "^1.19.0",
+    "testcafe": "^1.18.3",
+    "testcafe-browser-provider-browserstack": "^1.13.2-alpha.1",
+    "testcafe-reporter-cucumber-json": "^6.3.0"
+  }
+}
